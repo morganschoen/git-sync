@@ -22,7 +22,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: git-sync
-        uses: morgan-schoen/git-sync@main
+        uses: morganschoen/git-sync@main
         with:
           source_repo: "source_org/repository"
           source_branch: "main"
